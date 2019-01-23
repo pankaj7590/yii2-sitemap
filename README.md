@@ -28,4 +28,5 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \fierydevs\sitemap\AutoloadExample::widget(); ?>```
+<?= \fierydevs\sitemap\AutoloadExample::widget(); ?>
+```
