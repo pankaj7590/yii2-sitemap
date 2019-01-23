@@ -1,0 +1,21 @@
+{
+    "name": "fierydevs/yii2-sitemap",
+    "description": "An extension to generate sitemap dynamically for indexing purpose.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pankaj Salokhe",
+            "email": "pankaj@fierydevs.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "fierydevs\\sitemap\\": ""
+        }
+    }
+}
