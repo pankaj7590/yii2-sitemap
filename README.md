@@ -28,5 +28,13 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \fierydevs\sitemap\AutoloadExample::widget(); ?>
+<?= \fierydevs\sitemap\SitemapGenerator::widget([
+			'output_file' => 'sitemap.xml',
+			'site' => \yii\helpers\Url::base(true),
+			'cli' => false,
+			'frequency' => 'weekly', 
+			'priority' => 0.5, 
+			'ignore_empty_content_type' => false, 
+			'version' => 1.0,
+		]); ?>
 ```

@@ -3,7 +3,7 @@ namespace fierydevs\sitemap;
 
 use yii\web\Url;
 
-class AutoloadExample extends \yii\base\Widget
+class SitemapGenerator extends \yii\base\Widget
 {
 	private $pf;
 	
