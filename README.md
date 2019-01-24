@@ -26,7 +26,10 @@ Usage
 -----
 
 Once the extension is installed, simply use it in your code by  :
-No parameter is mandatory. Default values are mentioned in the below code.
+
+No parameter is mandatory. 
+
+Default values are mentioned in the below code.
 
 ```php
 <?= \fierydevs\sitemap\SitemapGenerator::widget([
