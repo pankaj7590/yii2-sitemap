@@ -77,8 +77,7 @@ class SitemapGenerator extends \yii\base\Widget
 		// SITE configuration check    
 		if (!SITE)
 		{
-			die ("ERROR: You did not set the SITE variable at line number " . 
-				 "68 with the URL of your website!\n");
+			die ("ERROR: You did not set the SITE variable with the URL of your website!\n");
 		}
 		
 		error_reporting (E_ERROR | E_WARNING | E_PARSE);
