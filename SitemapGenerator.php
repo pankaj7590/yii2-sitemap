@@ -17,6 +17,9 @@ class SitemapGenerator extends \yii\base\Widget
 		}
 		define("OUTPUT_FILE", $this->output_file);
 		
+		if($this->site === null){
+			$this->site = \yii\helpers\Url::base(true);
+		}
         define("SITE", $this->site);
 		
         if ($this->cli === null) {
